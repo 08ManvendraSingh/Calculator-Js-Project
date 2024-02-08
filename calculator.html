@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+
+     <div class="main">
+     	<div class="calc">
+     		<div class="calc-top">
+     			<input type="text" id="output" placeholder="0">
+     		</div>
+     		<div class="l-one">
+     			<button onclick="clr('c')">C</button>
+     			<button onclick="dele('ce')">CE</button>
+     			<button onclick="common('%')">%</button>
+     			<button onclick="common('/')">/</button>
+     		</div>
+     		<div class="l-two">
+     			<button onclick="common(7)">7</button>
+     			<button onclick="common(8)">8</button>
+     			<button onclick="common(9)">9</button>
+     			<button onclick="common('x')">x</button>
+     		</div>
+     		<div class="l-three">
+     			<button onclick="common(4)">4</button>
+     			<button onclick="common(5)">5</button>
+     			<button onclick="common(6)">6</button>
+     			<button onclick="common('-')">-</button>
+     		</div>
+     		<div class="l-four">
+     			<button onclick="common(1)">1</button>
+     			<button onclick="common(2)">2</button>
+     			<button onclick="common(4)">3</button>
+     			<button onclick="common('+')">+</button>
+     		</div>
+     		<div class="l-five">
+     			<button onclick="common(0)">0</button>
+     			<button onclick="common('.')">.</button>
+     			<button onclick="equal('=')">=</button>
+     		</div>
+     	</div>
+     </div>
+
+     <script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
